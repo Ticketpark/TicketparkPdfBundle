@@ -1,0 +1,38 @@
+{
+    "name": "ticketpark/pdf-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle assists in creating PDF files with DocRaptor",
+    "keywords": ["pdf"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ticketpark contributors and others",
+            "homepage": "https://github.com/Ticketpark/PdfBundle/contributors"
+        }
+    ],
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ticketpark/docraptor.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/MartijnDwars/docraptor-bundle.git"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "bytes/docraptor-bundle": "@dev",
+        "bytes/docraptor": "@dev",
+        "ticketpark/file-bundle": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": { "Ticketpark\\PdfBundle": "" }
+    },
+
+    "target-dir": "Ticketpark/PdfBundle"
+}

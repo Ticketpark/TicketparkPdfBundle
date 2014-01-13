@@ -1,0 +1,7 @@
+parameters:
+    ticketpark.pdf.creator.class: Ticketpark\PdfBundle\PdfCreator\PdfCreator
+
+services:
+    ticketpark.pdf.creator:
+        class: %ticketpark.pdf.creator.class%
+        arguments: [@docraptor, @ticketpark.file.handler]
