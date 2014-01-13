@@ -31,8 +31,8 @@ class PdfCreatorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
- * @expectedException Ticketpark\PdfBundle\Exception\InvalidArgumentException
- */
+    * @expectedException Ticketpark\PdfBundle\Exception\InvalidArgumentException
+    */
     public function testNoContent()
     {
         $pdfCreator = new PdfCreator($this->getPdfClientMock(), $this->getFileHandlerMock());
