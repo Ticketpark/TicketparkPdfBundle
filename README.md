@@ -36,7 +36,8 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Ticketpark\FileBundle\TicketparkPdfBundle(),
+        new Ticketpark\PdfBundle\TicketparkPdfBundle(),
+        new Ticketpark\FileBundle\TicketparkFileBundle(),
         new Bytes\Bundle\DocraptorBundle\BytesDocraptorBundle(),
     );
 }
