@@ -27,7 +27,7 @@
         "php": ">=5.3.3",
         "bytes/docraptor-bundle": "@dev",
         "bytes/docraptor": "@dev",
-        "ticketpark/file-bundle": "0.1"
+        "ticketpark/file-bundle": "~0.2"
     },
 
     "autoload": {
