@@ -25,8 +25,8 @@
 
     "require": {
         "php": ">=5.3.3",
-        "bytes/docraptor-bundle": "@dev",
-        "bytes/docraptor": "@dev",
+        "bytes/docraptor-bundle": "dev-master",
+        "bytes/docraptor": "dev-master",
         "ticketpark/file-bundle": "~0.2"
     },
 
